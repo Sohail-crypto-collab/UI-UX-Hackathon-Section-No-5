@@ -1,0 +1,3 @@
+In React, the key prop should be a unique identifier for each item in a list. Since navItems already has a label and href for each item, one simple approach is to use the label as the key. If you expect the label to be unique across all items, this is sufficient.
+
+Here's how you can assign a unique key for each Link in the Navbar component:
